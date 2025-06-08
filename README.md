@@ -1,6 +1,12 @@
 # NYC-Taxi-regression-analysis
 
-## Build a multiple linear regression model
+## Issues
+To predict taxi cab fares for The New York City Taxi & Limousine Commission, then created the deliverable for the original ask from their client: a regression model.
+
+## Response
+A multiple linear regression (MLR) model was chose to create, based on the type and distribution of data provided. The MLR model showed a successful model that estimates taxi cab fares prior to the ride.
+The model performance is high on both training and test sets, suggesting that the model is not over-biased and that the model is not overfit. The model performed better on the test data.
+
 ### Model metrics:
 Net model tuning resulted in:
 - R^2 0.81, meaning that 81.5% of the variance is described by the model.
@@ -14,18 +20,19 @@ Net model tuning resulted in:
 3. The New York City Taxi and Limousine commission can use these findings to create an app that allows users (TLC riders) to see the estimated fare before their ride begins.
 4. The model provides a generally strong and reliable fare prediction that can be used in downstream modeling efforts.
 
-
+## Build a multiple linear regression model
 
 **The purpose** of this project is to demostrate knowledge of EDA and a multiple linear regression model.
 
 **The goal** is to build a multiple linear regression model and evaluate the model.
 
 ## Methodology
-### Part [01] : Plan and Analyze
-**EDA & Checking Model Assumptions**
+### PACE Method
+**Part [01] : Plan and Analyze**
+  - EDA & Checking Model Assumptions
 
-### Part [02] : Construct
-***Model Building and evaluation***
+**Part [02] : Construct**
+  - Model Building and evaluation
 
-### Part [03] : Excecute
-***Interpreting Model Results***
+**Part [03] : Excecute**
+  - Interpreting Model Results
